@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Tran Van</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="lang-switcher">
+        <button id="btn-en" class="lang-btn active" onclick="switchLang('en')">EN</button>
+        <button id="btn-vi" class="lang-btn" onclick="switchLang('vi')">VI</button>
+    </div>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="avatar-placeholder">TV</div>
+            <h1 data-en="Tran Van" data-vi="Trần Văn">Tran Van</h1>
+            <p class="subtitle" data-en="Software Engineer" data-vi="Kỹ sư Phần mềm">Software Engineer</p>
+            <div class="contact-info">
+                <span>📧 email@example.com</span>
+                <span>📱 +84 xxx xxx xxx</span>
+                <span>📍 <span data-en="Ho Chi Minh City, Vietnam" data-vi="TP. Hồ Chí Minh, Việt Nam">Ho Chi Minh City, Vietnam</span></span>
+                <span>🔗 <a href="https://github.com/tranv" target="_blank">github.com/tranv</a></span>
+                <span>🔗 <a href="https://linkedin.com/in/tranv" target="_blank">linkedin.com/in/tranv</a></span>
+            </div>
+        </header>
+
+        <!-- About -->
+        <section class="section">
+            <h2 data-en="About Me" data-vi="Giới thiệu">About Me</h2>
+            <p data-en="A passionate software engineer with experience in building web applications and scalable systems. Dedicated to writing clean, maintainable code and continuously learning new technologies."
+               data-vi="Kỹ sư phần mềm đam mê với kinh nghiệm xây dựng ứng dụng web và hệ thống có khả năng mở rộng. Tận tâm viết mã sạch, dễ bảo trì và không ngừng học hỏi công nghệ mới.">
+                A passionate software engineer with experience in building web applications and scalable systems. Dedicated to writing clean, maintainable code and continuously learning new technologies.
+            </p>
+        </section>
+
+        <!-- Experience -->
+        <section class="section">
+            <h2 data-en="Experience" data-vi="Kinh nghiệm làm việc">Experience</h2>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <div>
+                        <h3 data-en="Senior Software Engineer" data-vi="Kỹ sư Phần mềm Cao cấp">Senior Software Engineer</h3>
+                        <span class="company">Company Name</span>
+                    </div>
+                    <span class="date" data-en="Jan 2023 – Present" data-vi="01/2023 – Hiện tại">Jan 2023 – Present</span>
+                </div>
+                <ul>
+                    <li data-en="Developed and maintained scalable web applications using modern frameworks"
+                        data-vi="Phát triển và bảo trì các ứng dụng web có khả năng mở rộng sử dụng framework hiện đại">
+                        Developed and maintained scalable web applications using modern frameworks
+                    </li>
+                    <li data-en="Collaborated with cross-functional teams to deliver high-quality products"
+                        data-vi="Phối hợp với các nhóm liên chức năng để cung cấp sản phẩm chất lượng cao">
+                        Collaborated with cross-functional teams to deliver high-quality products
+                    </li>
+                    <li data-en="Implemented CI/CD pipelines and improved deployment processes"
+                        data-vi="Triển khai CI/CD pipeline và cải thiện quy trình triển khai">
+                        Implemented CI/CD pipelines and improved deployment processes
+                    </li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <div>
+                        <h3 data-en="Software Engineer" data-vi="Kỹ sư Phần mềm">Software Engineer</h3>
+                        <span class="company">Previous Company</span>
+                    </div>
+                    <span class="date" data-en="Jun 2020 – Dec 2022" data-vi="06/2020 – 12/2022">Jun 2020 – Dec 2022</span>
+                </div>
+                <ul>
+                    <li data-en="Built RESTful APIs and microservices architecture"
+                        data-vi="Xây dựng RESTful API và kiến trúc microservices">
+                        Built RESTful APIs and microservices architecture
+                    </li>
+                    <li data-en="Optimized database queries resulting in 40% performance improvement"
+                        data-vi="Tối ưu hóa truy vấn cơ sở dữ liệu giúp cải thiện hiệu suất 40%">
+                        Optimized database queries resulting in 40% performance improvement
+                    </li>
+                    <li data-en="Mentored junior developers and conducted code reviews"
+                        data-vi="Hướng dẫn các lập trình viên mới và thực hiện đánh giá mã nguồn">
+                        Mentored junior developers and conducted code reviews
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section">
+            <h2 data-en="Education" data-vi="Học vấn">Education</h2>
+            <div class="entry">
+                <div class="entry-header">
+                    <div>
+                        <h3 data-en="Bachelor of Computer Science" data-vi="Cử nhân Khoa học Máy tính">Bachelor of Computer Science</h3>
+                        <span class="company" data-en="University Name" data-vi="Tên Trường Đại học">University Name</span>
+                    </div>
+                    <span class="date">2016 – 2020</span>
+                </div>
+                <ul>
+                    <li data-en="GPA: 3.5/4.0" data-vi="Điểm trung bình: 3.5/4.0">GPA: 3.5/4.0</li>
+                    <li data-en="Relevant coursework: Data Structures, Algorithms, Database Systems, Software Engineering"
+                        data-vi="Các môn liên quan: Cấu trúc dữ liệu, Thuật toán, Hệ quản trị CSDL, Công nghệ phần mềm">
+                        Relevant coursework: Data Structures, Algorithms, Database Systems, Software Engineering
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section">
+            <h2 data-en="Skills" data-vi="Kỹ năng">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-en="Programming Languages" data-vi="Ngôn ngữ lập trình">Programming Languages</h3>
+                    <div class="tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">C#</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-en="Frameworks & Libraries" data-vi="Framework & Thư viện">Frameworks & Libraries</h3>
+                    <div class="tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">.NET</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-en="Tools & Platforms" data-vi="Công cụ & Nền tảng">Tools & Platforms</h3>
+                    <div class="tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">CI/CD</span>
+                        <span class="tag">Linux</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-en="Databases" data-vi="Cơ sở dữ liệu">Databases</h3>
+                    <div class="tags">
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">Redis</span>
+                        <span class="tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section">
+            <h2 data-en="Projects" data-vi="Dự án">Projects</h2>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <div>
+                        <h3 data-en="Project Management App" data-vi="Ứng dụng Quản lý Dự án">Project Management App</h3>
+                    </div>
+                    <a href="#" class="project-link">GitHub ↗</a>
+                </div>
+                <p data-en="A full-stack project management application with real-time collaboration features, built with React, Node.js, and PostgreSQL."
+                   data-vi="Ứng dụng quản lý dự án full-stack với tính năng cộng tác thời gian thực, được xây dựng bằng React, Node.js và PostgreSQL.">
+                    A full-stack project management application with real-time collaboration features, built with React, Node.js, and PostgreSQL.
+                </p>
+            </div>
+
+            <div class="entry">
+                <div class="entry-header">
+                    <div>
+                        <h3 data-en="E-commerce Platform" data-vi="Nền tảng Thương mại Điện tử">E-commerce Platform</h3>
+                    </div>
+                    <a href="#" class="project-link">GitHub ↗</a>
+                </div>
+                <p data-en="A microservices-based e-commerce platform with payment integration, inventory management, and order tracking."
+                   data-vi="Nền tảng thương mại điện tử dựa trên microservices với tích hợp thanh toán, quản lý kho và theo dõi đơn hàng.">
+                    A microservices-based e-commerce platform with payment integration, inventory management, and order tracking.
+                </p>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="section">
+            <h2 data-en="Certifications" data-vi="Chứng chỉ">Certifications</h2>
+            <ul>
+                <li data-en="AWS Certified Solutions Architect – Associate" data-vi="AWS Certified Solutions Architect – Associate">AWS Certified Solutions Architect – Associate</li>
+                <li data-en="Professional Scrum Master I (PSM I)" data-vi="Professional Scrum Master I (PSM I)">Professional Scrum Master I (PSM I)</li>
+            </ul>
+        </section>
+
+        <!-- Languages -->
+        <section class="section">
+            <h2 data-en="Languages" data-vi="Ngôn ngữ">Languages</h2>
+            <ul>
+                <li data-en="Vietnamese – Native" data-vi="Tiếng Việt – Bản ngữ">Vietnamese – Native</li>
+                <li data-en="English – Professional working proficiency" data-vi="Tiếng Anh – Thành thạo trong công việc">English – Professional working proficiency</li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p data-en="Last updated: March 2026" data-vi="Cập nhật lần cuối: Tháng 3, 2026">Last updated: March 2026</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
